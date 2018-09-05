@@ -1,0 +1,18 @@
+html,
+body {
+    height: 100% !important;
+}
+body{                
+   /* background: url('../img/bntunnel.jpg') no-repeat center center fixed !important; */
+   background-color:#101010 !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+	 font-family: arial !important;
+
+}
+.lang-navbar-collapse {
+display: block!important;
+margin-top: 2% !important;
+}

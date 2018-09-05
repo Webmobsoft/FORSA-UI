@@ -1,0 +1,597 @@
+/*
+market css here
+*/
+.button {
+	background-color: #f4511e;
+	border: medium none;
+	border-radius: 8px !important;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 2px;
+	padding: 5px 4px;
+	text-align: center;
+}
+.pull-left-curr
+{
+	float:left !important;
+	border-right:1px solid #fff;
+	border-left:none !important;
+}
+.amountInsrt {
+	padding: 6px 16% !important;
+}
+.h4.c-light-blue.titleVal {
+	text-align: center;
+	color: #ffa500;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+	.activeClass1 
+	{
+  display: inline-block;
+  width:28%;
+  border-radius:15px;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.activeClass1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1 !important;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.9s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+ // border-radius:15px;
+}
+.activeClass1:hover, .activeClass1:focus, .activeClass1:active {
+  color: white;
+  //border-radius:15px;
+}
+.activeClass1:hover:before, .activeClass1:focus:before, .activeClass1:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  //border-radius:15px;
+}
+.btnATab
+{
+	 display: inline-block;
+  width:27%;
+  border-radius:0px !important;
+  vertical-align: middle;
+  
+}
+
+
+
+
+
+	.activeClass2 {
+  display: inline-block;
+  width:28%;
+  border-radius:15px;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.activeClass2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #DD4B3F !important;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.9s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  //border-radius:15px;
+}
+.activeClass2:hover, .activeClass2:focus, .activeClass2:active {
+  color: white;
+  //border-radius:15px;
+}
+.activeClass2:hover:before, .activeClass2:focus:before, .activeClass2:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  //border-radius:15px;
+}
+
+
+
+.requestAcceptedMarque
+{
+		background: #ED1B24; / Old browsers /
+		background: -moz-linear-gradient(left, #46ed6b 0%, #1d7d32 100%); / FF3.6-15 /
+		background: -webkit-linear-gradient(top, #46ed6b 0%,#1d7d32 100%); / Chrome10-25,Safari5.1-6 /
+		background: linear-gradient(to bottom, #46ed6b 0%,#1d7d32 100%); / W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ /
+}
+.requestAcceptedOfferMarque
+{
+	    background: #00A652; / Old browsers /
+		background: -moz-linear-gradient(left, #46ed6b 0%, #1d7d32 100%); / FF3.6-15 /
+		background: -webkit-linear-gradient(top, #46ed6b 0%,#1d7d32 100%); / Chrome10-25,Safari5.1-6 /
+		background: linear-gradient(to bottom, #46ed6b 0%,#1d7d32 100%); / W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ /
+}
+.hideMarquee
+{
+	 display: none;
+}
+.green1{
+	background-color:  #1F8331 ;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 28%;	
+	border:none;
+}
+.red1{
+	background-color:  red ;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 28%;	
+	border:none;
+}
+/*#brokenDateRequetstCount
+{
+	float:right;
+	position:relative;
+	top:-34px;
+	right:15px;
+	color:#000;
+	font-weight:bold;
+	height:0px;
+}*/
+#currentBiddingDetails table
+{
+	background-color: #101010;
+	padding:10px;
+}
+.bidClass
+{
+	background-color:#00cc00;
+	color:#272727;
+}
+.offerClass
+{
+	background-color:#ff1919;
+	color:#272727 ;
+}
+
+.tooltip 
+   {
+    position: relative;
+	padding-left:10px;
+   
+    opacity:1 !important;
+	border:2px solid #01182a;height:44px;width:25%;float:left; padding:12px 0px;cursor:pointer;background-color:#61b9dd ;margin-top:5px; color:#0e0e0e; font-size:17px;
+	}
+
+.tooltip span {
+  position: absolute;
+  width:140px;
+  color: #000;
+  background: #fff;
+  
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+ 
+}
+.tooltip span:after {
+  content: '';
+  position: absolute; 
+  margin-bottom:5px;
+  top: 98%;
+  
+  left: 50%;
+  margin-left: -60px;
+  margin-top:0px;
+  width: 0; height: 0;
+  border-top: 8px solid #fff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+ .tooltip:hover span {
+  visibility: visible;
+  
+  opacity:1;
+  bottom: 40px;
+  //left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
+.modal{
+	z-index:9999 !important;
+}
+
+
+.tooltip1 
+{
+  position: relative;
+  //display: inline;
+}
+.tooltip1 span 
+{
+  position: absolute;
+  width:140px;
+  color: #000;
+  background: #fff;
+  
+  line-height: 30px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 6px;
+ 
+}
+.tooltip1 span:after {
+  content: '';
+  position: absolute;
+  margin-bottom:5px;
+  top: 98%;
+  
+  left: 50%;
+  margin-left: -30px;
+  width: 0; height: 0;
+  //border-top: 8px solid #fff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+ .tooltip1:hover span {
+  visibility: visible;
+  
+  opacity:1;
+  bottom: 40px;
+  //left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
+.btnWM {
+    background: #00a652 none repeat scroll 0 0 !important;
+    margin-left:0px !important;
+}
+.white
+{
+    background-color: #fff;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 30%;	
+}
+
+.grey
+{
+	 background-color:  #B3BAC0 ;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 28%;	
+	
+}
+
+#btnAllDiv
+{
+	color: white;
+	float:left;
+	font-size: 13px;
+	height: 200px !important;
+	//padding-right: 50px;
+	text-align: center;
+	width: 55% !important;
+	margin-right:0px !important;
+}
+   .error_strings
+   {
+      margin-top:-10px;
+   }
+    #myRequest tr th, #myRequest tr td {
+
+        font-size: 12px;
+
+        max-width: 65px;
+
+    }
+
+    #myRequest tr th:last-child, #myRequest tr td:last-child {
+
+        max-width: 50px;
+
+    }
+
+    #myRequest tr th:nth-child(3), #myRequest tr td:nth-child(3) {
+
+        max-width: 40px;
+
+    }
+
+    #myRequest tr th:nth-child(4), #myRequest tr td:nth-child(4) {
+
+        max-width: 50px;
+
+    }
+
+    #myRequest tr th:nth-child(5), #myRequest tr td:nth-child(5) {
+
+        max-width: 45px;
+
+    }
+
+    #myRequest tr th:nth-child(6), #myRequest tr td:nth-child(6) {
+
+        max-width: 70px;
+
+    }
+
+    #myRequest tr th:nth-child(9), #myRequest tr td:nth-child(9) {
+
+        max-width: 52px;
+
+    }
+
+    #myRequest tr td {
+
+        padding: 4px;
+
+    }
+
+    .m_requestFromCompanyName {
+
+        color: gray;
+
+        left: 6px;
+
+        position: absolute;
+
+        top: 4px;
+
+    }
+
+    /*.m_requestFromRequestName {
+
+        padding-left: 85px;
+
+    }*/
+
+    .inputtext {
+
+        position: relative;
+
+    }
+
+    .chatTd {
+
+        max-width: 100px;
+
+        word-wrap: break-word;
+
+    }
+
+    .CountNum {
+
+        background: #E74C3C none repeat scroll 0 0;
+
+        left: 49% !important;
+
+        position: relative;
+
+        top: 16px;
+
+    }
+	.padding
+	{
+		padding:2px;
+                height:44px !important;
+	}
+ div.myRequestClass
+{
+	color:#fff !important;
+	background-color:#3c8af5 !important;
+}
+.myOfferClass
+{
+        color:#fff !important;
+	background-color:#3c8af5 !important;  
+}
+
+.graydot {
+  background-color: #ccd1d4;
+  border-radius: 50%;
+  display: inline-block;
+  margin: -5px 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.bluedot {
+  background-color: #3c8af5;
+  border-radius: 50%;
+  display: inline-block;
+  margin: -5px 5px;
+  padding: 10px;
+  position: relative;
+}
+.bluedt
+{
+	position:relative;
+	bottom:2px;
+}
+.graydt
+{
+	position:relative;
+	bottom:2px;
+	top:5px;
+	
+}
+.reqest-btn
+{
+	width:85%;
+	float:left;
+}
+.show-online
+{
+	width:15%;
+	float:right;
+	
+}
+.show-online {
+  float: right;
+  width: 15%;
+ 
+}
+.sb4.sb3 {
+	border-left: 1px solid;
+	bottom: 34px;
+	float: right;
+	height: 34px;
+	padding: 4px 9px 8px 12px;
+	position: relative;
+	background: #212121;
+}
+
+
+/*
+market css here ends
+*/
+
+
+
+.mmtext
+{
+	font-size   : 13px !important;
+	font-weight : bold;
+}
+
+.Trade-Book {
+  
+    background-color: #2d9ad3 !important;
+    border: 2px solid #2d9ad3;
+    border-radius: 6px;
+    color: #fff;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+    text-align: center;
+    width: 94%;
+}
+.Trade-Book h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.Open-Orders {
+	background-color: #101010;
+	border: 2px solid #474747;
+	border-radius: 0px;
+	color: #fff;
+	/* height: auto; */
+	margin: 11px 0px 0px;
+	padding-top: 0;
+	text-align: center;
+}
+.Open-Orders h5 {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 3px 0px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+#requestsButton {
+	margin: 12px 0px;
+	padding: 0px 0px;
+}
+.bid-button
+{
+    height:63px;
+    background-color:#ff0000;
+    text-align:center;
+    color:#fff;
+    font-size:20px;
+    padding-top:13px;
+}
+
+.bid-Pop {
+  bottom: 0;
+  display: none;
+  left: 0;
+  margin: 0 auto;
+  outline: 0 none;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 79px;
+  width: 47%;
+  z-index: 1050;
+}
+.bid-header
+{
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+.offer-list
+{
+    height:200px;
+    margin-bottom:10%;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) 
+{
+	#requestsButton {
+  margin: 0px 3px !important;
+}
+.Trade-Book {
+  margin-top: 80px !important;
+ }
+ .newRequest-form {
+  width: 100% !important;
+}
+.nav-icon {
+  margin: 1.5% 0 0 !important;
+  width: 42% !important;
+}
+.nav-language {
+  margin: 2% 2% 0 !important;
+  width: 50% !important; 
+}
+
+}
